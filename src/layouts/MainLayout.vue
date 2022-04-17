@@ -78,12 +78,12 @@ const linksList = [
   {
     title: "ข้อมูลติดต่อโรงพยาบาล",
     icon: "medication",
-    link: "https://twitter.quasar.dev",
+    link: "hospital-contact",
   },
   {
     title: "Station ใกล้คุณ",
     icon: "location_on",
-    link: "https://facebook.quasar.dev",
+    link: "station",
   },
   {
     title: "สถิติผู้ติดเชื้อ",
