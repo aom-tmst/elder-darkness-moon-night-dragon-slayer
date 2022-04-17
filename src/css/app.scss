@@ -1,0 +1,51 @@
+// app global css in SCSS form
+
+.flex-1 {
+  display: flex;
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.items-end {
+  display: flex;
+  align-content: flex-end;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.black-bar {
+  margin: 10px 0 5px 0;
+  border-radius: 999px;
+  background: #070045;
+  height: 5px;
+  width: 80px;
+}
