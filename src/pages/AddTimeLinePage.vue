@@ -184,10 +184,9 @@
         class="flex-1"
         style="background-color: #04c5c9; font-weight: 900; border-radius: 10px"
         @click="onSubmit()"
-        label="ถัดไป"
+        label="บันทึก"
       />
     </div>
-    <div>upload image</div>
 
     <!-- dialog -->
     <q-dialog v-model="showDateDialog" position="bottom">
