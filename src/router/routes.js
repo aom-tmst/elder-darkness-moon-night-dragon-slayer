@@ -20,6 +20,18 @@ const routes = [
         path: "add-timline-page",
         component: () => import("src/pages/AddTimeLinePage.vue"),
       },
+      {
+        path: "hospital-contact",
+        component: () => import("src/pages/HospitalContact.vue"),
+      },
+      {
+        path: "hospital-detail",
+        component: () => import("src/pages/HospitalDetail.vue"),
+      },
+      {
+        path: "station",
+        component: () => import("src/pages/StationPage.vue"),
+      },
     ],
   },
 

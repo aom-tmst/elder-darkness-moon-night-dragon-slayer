@@ -59,7 +59,11 @@
         </q-btn>
       </div>
       <div class="col flex justify-center">
-        <q-btn class="flex-1" style="background-color: #e0f2f2; height: 115px">
+        <q-btn
+          to="add-timline-page"
+          class="flex-1"
+          style="background-color: #e0f2f2; height: 115px"
+        >
           <q-img
             :ratio="1"
             src="images/11.png"
@@ -72,7 +76,11 @@
 
     <div class="row justify-center items-center q-gutter-x-md">
       <div class="col flex justify-center">
-        <q-btn class="flex-1" style="background-color: #e0f2f2; height: 115px">
+        <q-btn
+          to="hospital-contact"
+          class="flex-1"
+          style="background-color: #e0f2f2; height: 115px"
+        >
           <q-img
             :ratio="1"
             src="images/12.png"
@@ -82,7 +90,11 @@
         </q-btn>
       </div>
       <div class="col flex justify-center">
-        <q-btn class="flex-1" style="background-color: #e0f2f2; height: 115px">
+        <q-btn
+          to="station"
+          class="flex-1"
+          style="background-color: #e0f2f2; height: 115px"
+        >
           <q-img
             :ratio="1"
             src="images/13.png"
@@ -92,7 +104,11 @@
         </q-btn>
       </div>
       <div class="col flex justify-center">
-        <q-btn class="flex-1" style="background-color: #e0f2f2; height: 115px">
+        <q-btn
+          to="static-each"
+          class="flex-1"
+          style="background-color: #e0f2f2; height: 115px"
+        >
           <q-img
             :ratio="1"
             src="images/16.png"
